@@ -1,0 +1,148 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+header{
+    height: 600px;
+    background-image: url(./assets/airbnb.jpg);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.logo img{
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.nav{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 470px;
+    height: 60px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.host{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: solid white 1px;
+}
+.oui:hover, .host:hover{
+    background: rgba(00,00,00,0.35)
+}
+.snd-row{
+    text-align: center;
+}
+h1{
+    font-size: 3.8em;
+    color: white;
+    text-transform: uppercase;
+}
+header p{
+    font-weight: bold;
+    color: white;
+}
+.oui{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: rgba(255,255,255,0.35);
+    font-weight: bold;
+}
+.third-row{
+    height: 100px;
+    background: rgba(00,00,00,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    width: 835px;
+    height: 45px;
+    background-color: white;
+}
+#submit{
+    height: 45px;
+    width: 140px;
+    font-weight: bold;
+    background-color: #FF5A5F;
+    border: none;
+    color: white;
+}
+
+main{
+    background-color: #EDEFED ;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #565A5C;
+}
+
+h2{
+    margin-top: 40px;
+    font-size: 1.8em;
+}
+section{
+    display: flex;
+}
+section a{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+}
+section a:nth-child(1){
+    background-image: url(./assets/lille.jpg);
+}
+section a:nth-child(2){
+    background-image: url(./assets/bruxelles.jpg);
+}
+section a:nth-child(3){
+    background-image: url(./assets/londres.jpg);
+}
+
+.button{
+    width: 300px;
+    display: block;
+    color: #565A5C;
+    background-color: white;
+    border: solid 1px #565A5C;
+    text-align: center;
+    padding: 10px 0;
+}
+footer{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100vw;
+}
